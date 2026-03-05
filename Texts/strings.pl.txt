@@ -1,0 +1,31 @@
+# PICK A CLASS MENU
+PICKCLASS.FIGHTER.DESC = Wojownik\nSilny i wytrzymały.\nWysokie HP i siła w walce wręcz.
+PICKCLASS.MAGE.DESC = Mag\nWysoka Inteligencja i MP.\nSłaby w walce fizycznej,\nale potężny w magii.
+PICKCLASS.THEIF.DESC = Złodziej\nSzybki i precyzyjny.\nWysoka Zręczność i Kinestezja.
+
+EGO.LOOK = Cholera, ale dobrze wyglądam!
+UNHANDLED.HOTSPOT.LOOK = Nie widzisz w tym niczego szczególnego.
+MONEY.LOOK.EMPTY = Twój mieszek jest pusty.
+
+# INVENTORY INTERACTIONS
+INV.INV = Użycie tego z tym nie miałoby sensu.
+
+# MONEY POUCH
+INV.MONEY.LOOK.EMPTY = Twój mieszek jest pusty.
+INV.MONEY.LOOK.CARRY = Nosisz {0} kopiejek w swoim mieszku.
+
+# TORCH
+INV.TORCH.LIT.LOOK = Pochodnia płonie jasnym, turkusowym płomieniem, jakiego nie powinien dawać żaden zwykły ogień.
+INV.TORCH.LOOK = Wygląda jak pochodnia, choć nie nosi śladów czegokolwiek, co pozwalałoby jej płonąć.
+INV.TORCH.LIT.NAME = Zapalona pochodnia
+INV.TORCH.LIT.INV.NODAGGER = Nie masz ostrza, którym mógłbyś uderzyć w krzesiwo.
+INV.TORCH.LIT.INV.NOFLINT = Próbujesz wydobyć iskrę z ostrza, lecz bez odpowiedniego kamienia wysiłek jest daremny.
+INV.TORCH.LIT.INV.LIGHT = Pochodnia jest już zapalona.
+INV.TORCH.INV.LIGHT = Uderzasz krzesiwem o ostrze. Sypią się iskry, a pochodnia ożywa jasnym, turkusowym płomieniem, jakiego nie powinien dawać żaden zwykły ogień.
+
+# DAGGER
+INV.DAGGER.LOOK = Dobrze wyważony sztylet z ostrą stalową klingą i solidnym chwytem. Bez ozdób, ale wyraźnie stworzony po to, by można mu było zaufać, gdy sprawy przybierają zły obrót.
+INV.DAGGER.FLINT = Uderzasz krzesiwem o ostrze i sypią się iskry.
+
+# FLINT
+INV.LOOK.FLINT = Tępy odłamek twardego kamienia. Uderzony o metal wygląda na zdolny do wzniecania iskier.

@@ -1,0 +1,126 @@
+# UNHANDLED DEFAULTS
+UNHANDLED.HOTSPOT.LOOK = You see nothing special about it.
+
+UNHANDLED.HOTSPOT.INTERACT.0 = You can't do anything with it.
+UNHANDLED.HOTSPOT.INTERACT.1 = There's nothing you can do with it.
+UNHANDLED.HOTSPOT.INTERACT.2 = That didn't do anything.
+UNHANDLED.HOTSPOT.INTERACT.3 = Nothing happens.
+UNHANDLED.HOTSPOT.INTERACT.DEFAULT = You find no way to make use of it.
+
+UNHANDLED.HOTSPOT.USEINV = Using that here wouldn't accomplish much.
+UNHANDLED.HOTSPOT.TALK = It has nothing to say.
+UNHANDLED.HOTSPOT.PICKUP = I'm not sure I should be taking it.
+
+UNHANDLED.OBJECT.LOOK = There is nothing particularly remarkable about it.
+UNHANDLED.OBJECT.INTERACT = You can't find any way to make use of it.
+UNHANDLED.OBJECT.TALK = It doesn't seem inclined to conversation.
+UNHANDLED.OBJECT.USEINV = That doesn't seem like it would accomplish anything.
+UNHANDLED.OBJECT.PICKUP = You see no reason to carry that with you.
+
+UNHANDLED.CHAR.LOOK = You see nothing out of the ordinary.
+
+UNHANDLED.CHAR.INTERACT.0 = They draw back, unwilling to be handled.
+UNHANDLED.CHAR.INTERACT.1 = They show no desire for physical contact.
+UNHANDLED.CHAR.INTERACT.DEFAULT = You sense that would be unwelcome.
+
+UNHANDLED.CHAR.TALK = They share no response with you.
+UNHANDLED.CHAR.USEINV = Hmm... They don't seem to want it.
+UNHANDLED.CHAR.PICKUP = You don't want it.
+
+UNHANDLED.INV.LOOK = There is nothing more to be learned from it.
+UNHANDLED.INV.INTERACT = That serves no purpose.
+UNHANDLED.INV.USEINV = Using that with that, would be pointless.
+
+# HANDLE CEGO
+CEGO.DEFAULTNAME = Hero
+CEGO.LOOK = You take a moment to appraise yourself. This is what potential looks like.
+CEGO.INTERACT = You adjust your clothing and check your pockets. Everything seems to be where it should be.
+CEGO.TALK = “You mutter a few words to yourself. No answers are forthcoming.
+
+# PICK A CLASS MENU
+PICKCLASS.FIGHTER.DESC = Fighter\nStrong and resilient.\nHigh HP and melee power.
+PICKCLASS.MAGE.DESC = Mage\nHigh Intelligence and MP.\nWeak physical combat,\nbut powerful magic.
+PICKCLASS.THEIF.DESC = Thief\nFast and precise.\nHigh Agility and Kinesthesia.
+
+# INVENTORY INTERACTIONS
+INV.INV = Using that with that, would be pointless.
+
+# MONEY POUCH
+GOLD.CURRENCY = złoty
+GOLD.STATS.TOTAL = {0} {1}
+GOLD.ADD.TOTAL = You now carry {0} {1}.
+INV.COINPOUCH.LOOK.EMPTY = Your coin purse is empty.
+INV.COINPOUCH.LOOK.CARRY = You are carrying {0} {1} in your coin pouch.
+
+# TORCH
+
+# DAGGER
+INV.DAGGER.LOOK = A well-balanced dagger with a keen steel blade and a sturdy grip. Not ornate, but clearly made to be trusted when things turn ugly.
+INV.DAGGER.FLINT = You strike flint to dagger and a shower of sparks erupts.
+
+# FLINT
+INV.LOOK.FLINT = A dull shard of hard stone. When struck against metal, it looks capable of making sparks.
+
+
+#STICK
+INV.STICK.LOOK = A handy length of wood.
+INV.STICK.USEINV.CLOTH = You wrap the cloth around the end of the stick, forming something that resembles a torch staff.
+INV.STICK.USEINV.TINDERBOX = You strike the flint against the steel, sending a shower of sparks onto the stick. On its own, the wood is not flammable enough to catch.
+
+#CLOTH
+INV.CLOTH.LOOK = A simple piece of cloth.
+INV.CLOTH.USEINV.TINDERBOX = You have the right idea about setting the cloth alight, but it feels wasteful to burn it without purpose.
+
+# UNLIT TORCH
+INV.TORCH.UNLIT.LOOK = A wooden torch staff with a cloth-wrapped head. Without a flame, it is little more than a length of wood, waiting to be lit.
+INV.TORCH.UNLIT.TINDERBOX = You strike the flint against the steel, sending a shower of sparks into the cloth. After a moment, the torch catches, the flame taking hold and growing steady in your hand.
+
+# LIT TORCH
+INV.TORCH.LIT.LOOK = The torch burns with a steady flame, casting warm light and pushing back the surrounding darkness. The fire feels reliable, as though it will hold for a while yet.
+
+# TINDERBOX
+INV.TINDERBOX.LOOK = A small tinderbox holding a piece of flint and a steel scraper. Simple and well-used, it is meant for striking a spark when you need fire.
+
+# - - - - - - - - - - - - - - - - - - - - - - - - -
+# ROOMS - - - - - - - - - - - - - - - - - - - - - - 
+# - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# ROOM - IDOL VISION 
+RM.VISION.IDOL.INTRO.1 = You wake with a sore head and the cold of stone beneath you. For a moment, nothing quite makes sense.
+RM.VISION.IDOL.INTRO.2 = Your pack is gone. So are your supplies and your map. The last thing you remember is the campfire, its warmth close at hand, and then nothing at all.
+RM.VISION.IDOL.INTRO.3 = You push yourself up, expecting to find somewhere familiar. Instead, you are here. Whatever brought you to this place did so without warning. If there are answers, you will have to look for them yourself.
+
+
+RM.VISION.IDOL.ROOM.LOOK = You stand on a small island suspended in nothing. Black ripples spread outward like an endless ocean of absence. At the centre stands a strange stone. Nearby are corpses, scattered bones, and branches thrusting from the ground. You have no sense of where you are, nor how such a place can exist.
+
+# DOOR
+RM.VISION.IDOL.DOOR.LOOK.1 = A stone archway with a oddly flat surface.
+RM.VISION.IDOL.DOOR.LOOK.2 = At the centre of this stone archway is a small, round opening. Peering through shows no clear shape or reflection.
+RM.VISION.IDOL.DOOR.INTERACT = You wrap your fingers around the opening and try to stretch it wider, but it doesn't budge. The surface feels unnaturally cold beneath your hand, yet seems to flinch from your warmth.
+RM.VISION.IDOL.DOOR.USEINV.TORCH.LIT = As you bring the flame close, the opening reacts at once, drawing back from the heat. It widens, yielding to the fire, until a clear passage forms where there was none before. You pass through.
+
+# TINDERBOX
+RM.VISION.IDOL.TINDERBOX.LOOK= A small box rests on the stone floor, set apart from the scattered bones around it.
+RM.VISION.IDOL.TINDERBOX.INTERACT = You bend down and lift the box, realising it is a small tinderbox. Inside are a piece of flint and a steel scraper, worn smooth by use. You can already tell it would be easy enough to strike a spark if needed.
+
+# CLOTH
+RM.VISION.IDOL.CLOTH.LOOK = A cloth hangs from a nearby branch.
+RM.VISION.IDOL.CLOTH.INTERACT = You take the cloth from the branch.
+
+# STICK
+RM.VISION.IDOL.STICK.LOOK = This branch looks as though it could be useful.
+RM.VISION.IDOL.STICK.INTERACT = You pull the branch free. It snaps easily, and you take it with you.
+
+# CORPSE WARRIOR
+RM.VISION.IDOL.CORPSEWARRIOR.LOOK = The corpse is that of a warrior wearing battle armour. The tunic beneath is torn and faded, and a faint emblem of a double-headed eagle can be seen on the cloth.
+RM.VISION.IDOL.CORPSEWARRIOR.INTERACT = A brief search of the body turns up nothing of use. You almost consider stripping the armour, knowing it could offer protection, but it looks stiff and heavy. Slowing yourself down feels unwise.
+
+# CORPSE WORSHIPPER
+RM.VISION.IDOL.CORPSEWORSHIPPER.LOOK = The body is wrapped in a red robe that hangs loosely around it. One arm is raised, the hand held out as though pointing towards something. The mouth is stretched wide open, frozen in a silent and unsettling expression.
+RM.VISION.IDOL.CORPSEWORSHIPPER.INTERACT = A brief search of the corpse reveals nothing of use. However, you find some strange stone jewellery. You consider it for a moment, but feel no urge to take them with you.
+
+# IDOL
+RM.VISION.IDOL.IDOL.LOOK = The dark stone stands as a monument in this place. You cannot explain its hold on your attention, only that turning away requires effort. The air around it feels suspended, as though it is waiting for your touch.
+RM.VISION.IDOL.IDOL.INTERACT.1 = The moment your fingers touch the stone, a powerful bliss surges through you. Your heart quickens, each beat louder than the last. For an instant, giving in to the feeling seems effortless. Then, unwelcome visions force their way into your mind. You see yourself shaping the lives of others, committing deeds that wound deeply, making choices that bring harm, and leaving behind a slow suffering in your wake.
+RM.VISION.IDOL.IDOL.INTERACT.2 = Through sheer effort of will, you pull your hand away.
+RM.VISION.IDOL.IDOL.INTERACT.3 = You have no desire to touch it again.

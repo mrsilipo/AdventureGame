@@ -1,0 +1,1 @@
+Game : (room:7) [room7.asc:11] Wait() was used in "Before Fadein" event; use "After Fadein" instead
