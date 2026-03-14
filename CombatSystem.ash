@@ -39,6 +39,8 @@ struct CombatRuntime {
   int player_atb;
   int enemy_atb;
   int atb_max;
+  int player_atb_accum_x100;
+  int enemy_atb_accum_x100;
 
   int selected_melee;
   int known_melee_count;
@@ -77,8 +79,8 @@ import void Combat_PlayerCast();
 import void Combat_PlayerPotion();
 
 // selection helpers
-import void Combat_SelectNextMelee();
-import void Combat_SelectPrevMelee();
+import void Combat_SelectNextAttack();
+import void Combat_SelectPrevAttack();
 import void Combat_SelectNextSpell();
 import void Combat_SelectPrevSpell();
 

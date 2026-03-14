@@ -2494,130 +2494,31 @@
               <BackgroundImage>0</BackgroundImage>
               <BorderColor>2</BorderColor>
               <Clickable>True</Clickable>
-              <Height>100</Height>
+              <Height>40</Height>
               <ID>12</ID>
-              <Left>5</Left>
+              <Left>60</Left>
               <Name>guiBattle</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <ScriptModule>GUI_PlayerCombat.asc</ScriptModule>
-              <Top>30</Top>
+              <Top>160</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
-              <Width>60</Width>
+              <Width>200</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
-              <GUILabel>
-                <Clickable>False</Clickable>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>11</Height>
-                <ID>0</ID>
-                <Left>3</Left>
-                <Locked>False</Locked>
-                <Name>lblPlayerHP</Name>
-                <Text>HP:</Text>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Top>8</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>42</Width>
-                <ZOrder>0</ZOrder>
-              </GUILabel>
-              <GUILabel>
-                <Clickable>False</Clickable>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>11</Height>
-                <ID>1</ID>
-                <Left>3</Left>
-                <Locked>False</Locked>
-                <Name>lblPlayerMP</Name>
-                <Text>MP:</Text>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>2047</TextColor>
-                <Top>17</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>45</Width>
-                <ZOrder>1</ZOrder>
-              </GUILabel>
-              <GUISlider>
-                <BackgroundImage>0</BackgroundImage>
-                <Clickable>False</Clickable>
-                <Enabled>True</Enabled>
-                <HandleImage>0</HandleImage>
-                <HandleOffset>0</HandleOffset>
-                <Height>8</Height>
-                <ID>2</ID>
-                <Left>21</Left>
-                <Locked>False</Locked>
-                <MaxValue>10</MaxValue>
-                <MinValue>0</MinValue>
-                <Name>sldPlayerHP</Name>
-                <OnChange />
-                <Top>8</Top>
-                <Translated>True</Translated>
-                <Value>0</Value>
-                <Visible>True</Visible>
-                <Width>36</Width>
-                <ZOrder>2</ZOrder>
-              </GUISlider>
-              <GUISlider>
-                <BackgroundImage>0</BackgroundImage>
-                <Clickable>False</Clickable>
-                <Enabled>True</Enabled>
-                <HandleImage>0</HandleImage>
-                <HandleOffset>0</HandleOffset>
-                <Height>8</Height>
-                <ID>3</ID>
-                <Left>21</Left>
-                <Locked>False</Locked>
-                <MaxValue>10</MaxValue>
-                <MinValue>0</MinValue>
-                <Name>sldPlayerMP</Name>
-                <OnChange />
-                <Top>17</Top>
-                <Translated>True</Translated>
-                <Value>0</Value>
-                <Visible>True</Visible>
-                <Width>36</Width>
-                <ZOrder>3</ZOrder>
-              </GUISlider>
-              <GUISlider>
-                <BackgroundImage>0</BackgroundImage>
-                <Clickable>False</Clickable>
-                <Enabled>True</Enabled>
-                <HandleImage>0</HandleImage>
-                <HandleOffset>0</HandleOffset>
-                <Height>8</Height>
-                <ID>4</ID>
-                <Left>3</Left>
-                <Locked>False</Locked>
-                <MaxValue>10</MaxValue>
-                <MinValue>0</MinValue>
-                <Name>sldPlayerATB</Name>
-                <OnChange />
-                <Top>0</Top>
-                <Translated>True</Translated>
-                <Value>0</Value>
-                <Visible>True</Visible>
-                <Width>54</Width>
-                <ZOrder>4</ZOrder>
-              </GUISlider>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
                 <Clickable>True</Clickable>
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>14</Height>
-                <ID>5</ID>
+                <Height>12</Height>
+                <ID>0</ID>
                 <Image>0</Image>
-                <Left>10</Left>
+                <Left>3</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnAttack</Name>
@@ -2629,12 +2530,12 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>28</Top>
+                <Top>13</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>40</Width>
+                <Width>34</Width>
                 <WrapText>False</WrapText>
-                <ZOrder>5</ZOrder>
+                <ZOrder>0</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -2642,10 +2543,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>14</Height>
-                <ID>6</ID>
+                <Height>12</Height>
+                <ID>1</ID>
                 <Image>0</Image>
-                <Left>2</Left>
+                <Left>40</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnDefend</Name>
@@ -2657,12 +2558,12 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>42</Top>
+                <Top>13</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>56</Width>
+                <Width>43</Width>
                 <WrapText>False</WrapText>
-                <ZOrder>6</ZOrder>
+                <ZOrder>1</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -2670,10 +2571,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>14</Height>
-                <ID>7</ID>
+                <Height>12</Height>
+                <ID>2</ID>
                 <Image>0</Image>
-                <Left>2</Left>
+                <Left>153</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnPotion</Name>
@@ -2685,12 +2586,12 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>70</Top>
+                <Top>13</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>56</Width>
+                <Width>38</Width>
                 <WrapText>False</WrapText>
-                <ZOrder>7</ZOrder>
+                <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -2698,10 +2599,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>14</Height>
-                <ID>8</ID>
+                <Height>13</Height>
+                <ID>3</ID>
                 <Image>0</Image>
-                <Left>10</Left>
+                <Left>119</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnSpell</Name>
@@ -2713,12 +2614,12 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>56</Top>
+                <Top>13</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>40</Width>
+                <Width>27</Width>
                 <WrapText>False</WrapText>
-                <ZOrder>8</ZOrder>
+                <ZOrder>3</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -2726,129 +2627,149 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>13</Height>
-                <ID>9</ID>
+                <Height>11</Height>
+                <ID>4</ID>
                 <Image>0</Image>
-                <Left>50</Left>
+                <Left>40</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
-                <Name>btnMeleeNext</Name>
+                <Name>btnRun</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnMeleeNext_OnClick</OnClick>
+                <OnClick>btnDefend_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
-                <Text>&gt;</Text>
+                <Text>Run</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>28</Top>
+                <Top>26</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>8</Width>
+                <Width>42</Width>
                 <WrapText>False</WrapText>
-                <ZOrder>9</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>14</Height>
-                <ID>10</ID>
-                <Image>0</Image>
-                <Left>2</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
-                <Name>btnMeleePrev</Name>
-                <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnMeleePrev_OnClick</OnClick>
-                <PushedImage>0</PushedImage>
-                <Text>&lt;</Text>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <TextPaddingHorizontal>2</TextPaddingHorizontal>
-                <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>28</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>8</Width>
-                <WrapText>False</WrapText>
-                <ZOrder>10</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>14</Height>
-                <ID>11</ID>
-                <Image>0</Image>
-                <Left>50</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
-                <Name>btnSpellNext</Name>
-                <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnSpellNext_OnClick</OnClick>
-                <PushedImage>0</PushedImage>
-                <Text>&gt;</Text>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <TextPaddingHorizontal>2</TextPaddingHorizontal>
-                <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>56</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>8</Width>
-                <WrapText>False</WrapText>
-                <ZOrder>11</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>14</Height>
-                <ID>12</ID>
-                <Image>0</Image>
-                <Left>2</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
-                <Name>btnSpellPrev</Name>
-                <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnSpellPrev_OnClick</OnClick>
-                <PushedImage>0</PushedImage>
-                <Text>&lt;</Text>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <TextPaddingHorizontal>2</TextPaddingHorizontal>
-                <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>56</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>8</Width>
-                <WrapText>False</WrapText>
-                <ZOrder>12</ZOrder>
+                <ZOrder>4</ZOrder>
               </GUIButton>
               <GUILabel>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>14</Height>
-                <ID>13</ID>
-                <Left>2</Left>
+                <Height>11</Height>
+                <ID>5</ID>
+                <Left>3</Left>
                 <Locked>False</Locked>
                 <Name>lblBattleLog</Name>
                 <Text>BattleLog</Text>
                 <TextAlignment>TopLeft</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>84</Top>
+                <Top>2</Top>
                 <Translated>True</Translated>
-                <Visible>False</Visible>
-                <Width>57</Width>
-                <ZOrder>13</ZOrder>
+                <Visible>True</Visible>
+                <Width>197</Width>
+                <ZOrder>5</ZOrder>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>144</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>False</Clickable>
+              <Height>31</Height>
+              <ID>13</ID>
+              <Left>15</Left>
+              <Name>guiBattlePlayerStatus</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Top>30</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>92</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUISlider>
+                <BackgroundImage>0</BackgroundImage>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <Height>3</Height>
+                <ID>0</ID>
+                <Left>23</Left>
+                <Locked>False</Locked>
+                <MaxValue>10</MaxValue>
+                <MinValue>0</MinValue>
+                <Name>sldPlayerMP</Name>
+                <OnChange />
+                <Top>17</Top>
+                <Translated>True</Translated>
+                <Value>0</Value>
+                <Visible>True</Visible>
+                <Width>64</Width>
+                <ZOrder>0</ZOrder>
+              </GUISlider>
+              <GUISlider>
+                <BackgroundImage>0</BackgroundImage>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <Height>3</Height>
+                <ID>1</ID>
+                <Left>23</Left>
+                <Locked>False</Locked>
+                <MaxValue>10</MaxValue>
+                <MinValue>0</MinValue>
+                <Name>sldPlayerATB</Name>
+                <OnChange />
+                <Top>22</Top>
+                <Translated>True</Translated>
+                <Value>0</Value>
+                <Visible>True</Visible>
+                <Width>64</Width>
+                <ZOrder>1</ZOrder>
+              </GUISlider>
+              <GUISlider>
+                <BackgroundImage>0</BackgroundImage>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <Height>3</Height>
+                <ID>2</ID>
+                <Left>23</Left>
+                <Locked>False</Locked>
+                <MaxValue>10</MaxValue>
+                <MinValue>0</MinValue>
+                <Name>sldPlayerHP</Name>
+                <OnChange />
+                <Top>12</Top>
+                <Translated>True</Translated>
+                <Value>0</Value>
+                <Visible>True</Visible>
+                <Width>64</Width>
+                <ZOrder>2</ZOrder>
+              </GUISlider>
+              <GUILabel>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>9</Height>
+                <ID>3</ID>
+                <Left>4</Left>
+                <Locked>False</Locked>
+                <Name>lblPlayerName</Name>
+                <Text xml:space="preserve">Player Name</Text>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>2</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>83</Width>
+                <ZOrder>3</ZOrder>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -3425,9 +3346,9 @@
         <Name>Normal</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
-        <PointSize>11</PointSize>
+        <PointSize>0</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
-        <SourceFilename>C:\Users\h3xmo\Desktop\QfG\Font\StandardFont7px.ttf</SourceFilename>
+        <SourceFilename xml:space="preserve">D:\PIXEL ART\PersonalProjects\Advanya\Font\SCI Fonts\FONT.003</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
       </Font>
@@ -6613,6 +6534,22 @@
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
+                      <Sprite Slot="145" Width="32" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\h3xmo\Desktop\Hero_Idle.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>48</ImportHeight>
+                          <ImportWidth>32</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
                     </Sprites>
                   </SpriteFolder>
                   <SpriteFolder Name="Walk">
@@ -7821,6 +7758,32 @@
             </SubFolders>
             <Sprites />
           </SpriteFolder>
+          <SpriteFolder Name="UI">
+            <SubFolders>
+              <SpriteFolder Name="Battle">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="144" Width="92" Height="31" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\UI_Battle_Status.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>31</ImportHeight>
+                      <ImportWidth>92</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <TransparentColorIndex>0</TransparentColorIndex>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+            </SubFolders>
+            <Sprites />
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="False">
@@ -7917,63 +7880,7 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>131</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>1</ID>
-                        <Image>135</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>2</ID>
-                        <Image>136</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>3</ID>
-                        <Image>137</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>4</ID>
-                        <Image>138</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>5</ID>
-                        <Image>139</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>6</ID>
-                        <Image>140</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>7</ID>
-                        <Image>141</Image>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <Delay>0</Delay>
-                        <Flipped>False</Flipped>
-                        <ID>8</ID>
-                        <Image>142</Image>
+                        <Image>145</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -7986,7 +7893,7 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>134</Image>
+                        <Image>145</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -7999,7 +7906,7 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>132</Image>
+                        <Image>145</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -8012,7 +7919,7 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>133</Image>
+                        <Image>145</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
