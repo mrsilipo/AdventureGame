@@ -2951,6 +2951,25 @@
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
+          <InventoryItem>
+            <CursorImage>146</CursorImage>
+            <Description xml:space="preserve">Healing Potion</Description>
+            <HotspotX>12</HotspotX>
+            <HotspotY>13</HotspotY>
+            <ID>10</ID>
+            <Image>146</Image>
+            <Name>iHealingPotion</Name>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <ScriptModule>InventoryInteractions.asc</ScriptModule>
+              <Event Index="0">iHealingPotion_Look</Event>
+              <Event Index="1">iHealingPotion_Interact</Event>
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
         </InventoryItems>
       </InventoryItemFolder>
     </InventoryItems>
@@ -3209,7 +3228,7 @@
               <Event Index="0">cEgo_Look</Event>
               <Event Index="1">cEgo_Interact</Event>
               <Event Index="2">cEgo_Talk</Event>
-              <Event Index="3" />
+              <Event Index="3">cEgo_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -7361,6 +7380,22 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="146" Width="24" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\PIXEL ART\PersonalProjects\Advanya\Sprites\Items\item_HealingPotionpng.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <TransparentColorIndex>0</TransparentColorIndex>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -8344,54 +8379,6 @@ See KeyboardMovement.txt for details.
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
-                <FileName>CombatSystem.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>988107960</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>CombatSystem.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>988107960</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
-                <FileName>GUI_PlayerCombat.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>1149881990</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>GUI_PlayerCombat.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>1149881990</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
                 <FileName>VoiceOver.ash</FileName>
                 <Name />
                 <Description />
@@ -8433,6 +8420,54 @@ See KeyboardMovement.txt for details.
                 <Author />
                 <Version />
                 <Key>448840544</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>CombatSystem.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>988107960</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>CombatSystem.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>988107960</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>GUI_PlayerCombat.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1149881990</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>GUI_PlayerCombat.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1149881990</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>

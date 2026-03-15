@@ -79,11 +79,11 @@ import void Combat_PlayerCast();
 import void Combat_PlayerPotion();
 
 // selection helpers
-import void Combat_SelectNextAttack();
-import void Combat_SelectPrevAttack();
+import void Combat_SelectNextMelee();
+import void Combat_SelectPrevMelee();
 import void Combat_SelectNextSpell();
 import void Combat_SelectPrevSpell();
 
 // setup helpers
 import void Combat_RegisterStarterMoves();
-import void Combat_RegisterPotion(InventoryItem* item, int heal_hp, int restore_mp);
+// using project inventory script: iHealingPotion_Drink()

@@ -4,6 +4,10 @@
 
 import function iMoney_Look(InventoryItem *theItem, CursorMode mode);
 
+import function iHealingPotion_Drink();
+import function iHealingPotion_Interact(InventoryItem *theItem, CursorMode mode);
+import function iHealingPotion_Look(InventoryItem *theItem, CursorMode mode);
+
 import function iTorch_Look(InventoryItem *theItem, CursorMode mode);
 import function iTorch_UseInv(InventoryItem *theItem, CursorMode mode);
 

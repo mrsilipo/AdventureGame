@@ -52,7 +52,9 @@ GOLD.ADD.TOTAL = You now carry {0} {1}.
 INV.COINPOUCH.LOOK.EMPTY = Your coin purse is empty.
 INV.COINPOUCH.LOOK.CARRY = You are carrying {0} {1} in your coin pouch.
 
-# TORCH
+# HEALING POTION
+CEGO.USEINV.HEALINGPOTION = Ahh, that feels better. You can feel your body regain strength.
+INV.HEALINGPOTION.LOOK = It's a healing potion.
 
 # DAGGER
 INV.DAGGER.LOOK = A well-balanced dagger with a keen steel blade and a sturdy grip. Not ornate, but clearly made to be trusted when things turn ugly.
