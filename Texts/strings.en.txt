@@ -1,4 +1,6 @@
-# UNHANDLED DEFAULTS
+# - - - - - - - - - - - - - - - - - - - - - - - - -
+# UNHANDLED DEFAULTS  - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - -
 UNHANDLED.HOTSPOT.LOOK = You see nothing special about it.
 
 UNHANDLED.HOTSPOT.INTERACT.0 = You can't do anything with it.
@@ -30,6 +32,7 @@ UNHANDLED.CHAR.PICKUP = You don't want it.
 UNHANDLED.INV.LOOK = There is nothing more to be learned from it.
 UNHANDLED.INV.INTERACT = That serves no purpose.
 UNHANDLED.INV.USEINV = Using that with that, would be pointless.
+INV.INV = Using that with that, would be pointless.
 
 # HANDLE CEGO
 CEGO.DEFAULTNAME = Hero
@@ -37,14 +40,23 @@ CEGO.LOOK = You take a moment to appraise yourself. This is what potential looks
 CEGO.INTERACT = You adjust your clothing and check your pockets. Everything seems to be where it should be.
 CEGO.TALK = “You mutter a few words to yourself. No answers are forthcoming.
 
+# - - - - - - - - - - - - - - - - - - - - - - - - -
+# PICK A CLASS  - - - - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - -
 # PICK A CLASS MENU
 PICKCLASS.FIGHTER.DESC = Fighter\nStrong and resilient.\nHigh HP and melee power.
 PICKCLASS.MAGE.DESC = Mage\nHigh Intelligence and MP.\nWeak physical combat,\nbut powerful magic.
 PICKCLASS.THEIF.DESC = Thief\nFast and precise.\nHigh Agility and Kinesthesia.
 
-# INVENTORY INTERACTIONS
-INV.INV = Using that with that, would be pointless.
+# - - - - - - - - - - - - - - - - - - - - - - - - -
+# DEATHS - - - - - - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - -
+DEATH.TOAD.TITLE = Death By Toad
+DEATH.TOAD.TEXT = You got toaddily done by the massive toad!
 
+# - - - - - - - - - - - - - - - - - - - - - - - - -
+# INVENTORY - - - - - - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - -
 # MONEY POUCH
 GOLD.CURRENCY = złoty
 GOLD.STATS.TOTAL = {0} {1}
@@ -62,7 +74,6 @@ INV.DAGGER.FLINT = You strike flint to dagger and a shower of sparks erupts.
 
 # FLINT
 INV.LOOK.FLINT = A dull shard of hard stone. When struck against metal, it looks capable of making sparks.
-
 
 #STICK
 INV.STICK.LOOK = A handy length of wood.

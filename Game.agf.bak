@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>69</AudioIndexer>
+      <AudioIndexer>73</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -38,7 +38,7 @@
       <EnforceObjectBasedScript>False</EnforceObjectBasedScript>
       <GUIAlphaStyle>MultiplyTranslucenceSrcBlend</GUIAlphaStyle>
       <GUIDAsString>{36084227-73d0-4c57-893c-14ccd2ce2cc7}</GUIDAsString>
-      <GameFPS>40</GameFPS>
+      <GameFPS>60</GameFPS>
       <GameFileName xml:space="preserve">Hero's Path</GameFileName>
       <GameName xml:space="preserve">Hero's Path - Initiation</GameName>
       <GameTextEncoding>utf-8</GameTextEncoding>
@@ -1587,7 +1587,7 @@
                 <OnChange>sldSpeed_OnChange</OnChange>
                 <Top>140</Top>
                 <Translated>True</Translated>
-                <Value>40</Value>
+                <Value>60</Value>
                 <Visible>True</Visible>
                 <Width>100</Width>
                 <ZOrder>13</ZOrder>
@@ -2635,7 +2635,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnRun</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnDefend_OnClick</OnClick>
+                <OnClick>btnRun_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>Run</Text>
                 <TextAlignment>TopCenter</TextAlignment>
@@ -2773,6 +2773,177 @@
               </GUILabel>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>120</Height>
+              <ID>14</ID>
+              <Left>60</Left>
+              <Name>guiGameOver</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ScriptModule>GUI_GameOver.asc</ScriptModule>
+              <Top>40</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>200</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>11</Height>
+                <ID>0</ID>
+                <Left>60</Left>
+                <Locked>False</Locked>
+                <Name>lblGameOverTitle</Name>
+                <Text xml:space="preserve">Game Over Title</Text>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>12</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>82</Width>
+                <ZOrder>0</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>66</Height>
+                <ID>1</ID>
+                <Left>60</Left>
+                <Locked>False</Locked>
+                <Name>lblGameOverText</Name>
+                <Text xml:space="preserve">A paragraph describing why the player died, how it could be prevented, and something a little funny.</Text>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>28</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>119</Width>
+                <ZOrder>1</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>15</Height>
+                <ID>2</ID>
+                <Image>0</Image>
+                <Left>17</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>btnGameOver_Restore</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btnGameOver_Restore_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>Restore</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>93</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>45</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>2</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>15</Height>
+                <ID>3</ID>
+                <Image>0</Image>
+                <Left>73</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>btnGameOver_Restart</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btnGameOver_Restart_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>Restart</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>93</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>47</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>3</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>14</Height>
+                <ID>4</ID>
+                <Image>0</Image>
+                <Left>132</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>btnGameOver_Quit</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_GameOver_Quit_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>Quit</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>93</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>43</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>4</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>False</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>61</Height>
+                <ID>5</ID>
+                <Image>131</Image>
+                <Left>17</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>btnGameOver_Graphic</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>17</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>34</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>5</ZOrder>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -2838,30 +3009,11 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>2059</CursorImage>
-            <Description>Torch</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
-            <ID>4</ID>
-            <Image>0</Image>
-            <Name>iTorch</Name>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <Properties />
-            <Interactions>
-              <ScriptModule>InventoryInteractions.asc</ScriptModule>
-              <Event Index="0">iTorch_Look</Event>
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3">iTorch_UseInv</Event>
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
             <CursorImage>80</CursorImage>
             <Description xml:space="preserve">Unlit Torch</Description>
             <HotspotX>11</HotspotX>
             <HotspotY>11</HotspotY>
-            <ID>5</ID>
+            <ID>4</ID>
             <Image>80</Image>
             <Name>iInvUnlitTorch</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2880,7 +3032,7 @@
             <Description xml:space="preserve">Lit Torch</Description>
             <HotspotX>10</HotspotX>
             <HotspotY>12</HotspotY>
-            <ID>6</ID>
+            <ID>5</ID>
             <Image>78</Image>
             <Name>iInvLitTorch</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2899,7 +3051,7 @@
             <Description>Tinderbox</Description>
             <HotspotX>12</HotspotX>
             <HotspotY>12</HotspotY>
-            <ID>7</ID>
+            <ID>6</ID>
             <Image>79</Image>
             <Name>iInvTinderbox</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2918,7 +3070,7 @@
             <Description>Stick</Description>
             <HotspotX>11</HotspotX>
             <HotspotY>11</HotspotY>
-            <ID>8</ID>
+            <ID>7</ID>
             <Image>97</Image>
             <Name>iInvStick</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2937,7 +3089,7 @@
             <Description>Cloth</Description>
             <HotspotX>12</HotspotX>
             <HotspotY>11</HotspotY>
-            <ID>9</ID>
+            <ID>8</ID>
             <Image>96</Image>
             <Name>iInvCloth</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2956,7 +3108,7 @@
             <Description xml:space="preserve">Healing Potion</Description>
             <HotspotX>12</HotspotX>
             <HotspotY>13</HotspotY>
-            <ID>10</ID>
+            <ID>9</ID>
             <Image>146</Image>
             <Name>iHealingPotion</Name>
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
@@ -3659,15 +3811,7 @@
       <PaletteEntry Index="255" Type="Background" Red="120" Green="120" Blue="120" />
     </Palette>
     <GlobalVariables>
-      <Variables>
-        <GlobalVariable>
-          <ArraySize>0</ArraySize>
-          <ArrayType>None</ArrayType>
-          <DefaultValue>false</DefaultValue>
-          <Name>gInventoryTorchLit</Name>
-          <Type>bool</Type>
-        </GlobalVariable>
-      </Variables>
+      <Variables />
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
@@ -8229,6 +8373,30 @@
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>Music.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1159953252</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Music.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1159953252</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>DayNight.ash</FileName>
                 <Name />
                 <Description />
@@ -8427,6 +8595,30 @@ See KeyboardMovement.txt for details.
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>GUI_GameOver.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>452335136</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>GUI_GameOver.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>452335136</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>CombatSystem.ash</FileName>
                 <Name />
                 <Description />
@@ -8517,6 +8709,58 @@ See KeyboardMovement.txt for details.
                 <SourceFileName xml:space="preserve">D:\PIXEL ART\PersonalProjects\Hero's Path - Initiation\Music\Vision\Vision_v2.ogg</SourceFileName>
                 <Type>2</Type>
                 <FileLastModifiedDate>2026-02-07 12:55:37Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>36</ID>
+                <Index>70</Index>
+                <ScriptName>aGameOver</ScriptName>
+                <SourceFileName xml:space="preserve">D:\_References\Games\QuestForGlory4 - Reference\Music\Quest for Glory IV - Game Over - AdLib  Sound Blaster.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2026-03-15 00:46:50Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>37</ID>
+                <Index>71</Index>
+                <ScriptName>aBattle</ScriptName>
+                <SourceFileName xml:space="preserve">D:\_References\Games\QuestForGlory4 - Reference\Music\Quest for Glory IV - Boyar Priest Battle - AdLib  Sound Blaster.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2026-03-15 00:46:15Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>38</ID>
+                <Index>72</Index>
+                <ScriptName>aForest</ScriptName>
+                <SourceFileName xml:space="preserve">D:\_References\Games\QuestForGlory4 - Reference\Music\Quest for Glory IV - Forest Ambience - AdLib  Sound Blaster.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2026-03-08 23:45:40Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>39</ID>
+                <Index>73</Index>
+                <ScriptName>aMonsterChase</ScriptName>
+                <SourceFileName xml:space="preserve">D:\_References\Games\QuestForGlory4 - Reference\Music\Quest for Glory IV - Monster Chase - AdLib  Sound Blaster.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2026-03-09 01:07:37Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -9054,7 +9298,7 @@ See KeyboardMovement.txt for details.
       <AudioClipType>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
         <CrossfadeClips>No</CrossfadeClips>
-        <MaxChannels>1</MaxChannels>
+        <MaxChannels>2</MaxChannels>
         <Name>Music</Name>
         <TypeID>2</TypeID>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>

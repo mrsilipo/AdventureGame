@@ -1,12 +1,6 @@
-Game : (room:7) [GlobalScript.asc:329] WARNING: String format: place 1 expects a string, but a null pointer is passed.
+Game : (room:7) [GlobalScript.asc:110] WARNING: String format: place 1 expects a string, but a null pointer is passed.
 	Format string:
-	"%s
-"
-Game : (room:7) [GlobalScript.asc:329] WARNING: String format: place 1 expects a string, but a null pointer is passed.
+	"Battle started! A %s appears."
+Game : (room:7) [GlobalScript.asc:110] WARNING: String format: place 1 expects a string, but a null pointer is passed.
 	Format string:
-	"%s
-"
-Game : (room:7) [GlobalScript.asc:329] WARNING: String format: place 1 expects a string, but a null pointer is passed.
-	Format string:
-	"%s
-"
+	"Battle started! A %s appears."

@@ -17,21 +17,43 @@ enum CombatAction {
 };
 
 enum MonsterKind {
-  eMonsterGoblin = 0,
+  eMonsterToad = 0,
   eMonsterCount = 1
+};
+
+enum EnemyMoveCategory {
+  eMoveNormalAttack = 0,
+  eMoveSpecialAttack = 1,
+  eMoveOffensiveMagic = 2,
+  eMoveHealingMagic = 3
 };
 
 struct MonsterTemplate {
   String name;
+  String death;
+  String victory;
   int kind;
-  int level;
+
   int base[STAT_COUNT];
   int hp_max;
   int mp_max;
   int atb_speed;
+
+  int aggression;
+  int defensiveness;
+  int specialAttack;
+  int magicUse;
+
+  String move_names[5];
+  int move_power[5];
+  int move_mp_cost[5];
+  int move_count;
+  EnemyMoveCategory move_category[5];
 };
 
 struct CombatRuntime {
+  AudioClip* battle_song;
+
   bool active;
   bool player_defending;
   bool enemy_defending;
@@ -60,6 +82,8 @@ struct CombatRuntime {
 
   CombatState state;
 };
+
+import void MonsterData(MonsterKind kind);
 
 import CombatRuntime gCombat;
 
