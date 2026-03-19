@@ -5,7 +5,8 @@ enum CombatState {
   eCombatInactive = 0,
   eCombatRunning = 1,
   eCombatVictory = 2,
-  eCombatDefeat = 3
+  eCombatDefeat = 3,
+  eCombatEscaped = 4
 };
 
 enum CombatAction {
@@ -101,12 +102,7 @@ import void Combat_PlayerAttack();
 import void Combat_PlayerDefend();
 import void Combat_PlayerCast();
 import void Combat_PlayerPotion();
-
-// selection helpers
-import void Combat_SelectNextMelee();
-import void Combat_SelectPrevMelee();
-import void Combat_SelectNextSpell();
-import void Combat_SelectPrevSpell();
+import void Combat_PlayerRun();
 
 // setup helpers
 import void Combat_RegisterStarterMoves();

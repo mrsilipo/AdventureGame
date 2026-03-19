@@ -2322,7 +2322,7 @@
                 <ID>0</ID>
                 <Left>54</Left>
                 <Locked>False</Locked>
-                <Name>NameInput</Name>
+                <Name>txtNameInput</Name>
                 <OnActivate />
                 <ShowBorder>True</ShowBorder>
                 <Text />
@@ -2497,7 +2497,7 @@
               <Height>40</Height>
               <ID>12</ID>
               <Left>60</Left>
-              <Name>guiBattle</Name>
+              <Name>guiCombat</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
@@ -2678,7 +2678,7 @@
               <Height>31</Height>
               <ID>13</ID>
               <Left>15</Left>
-              <Name>guiBattlePlayerStatus</Name>
+              <Name>guiCombatPlayerStatus</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
@@ -2702,7 +2702,7 @@
                 <Locked>False</Locked>
                 <MaxValue>10</MaxValue>
                 <MinValue>0</MinValue>
-                <Name>sldPlayerMP</Name>
+                <Name>sldCombatPlayerMP</Name>
                 <OnChange />
                 <Top>17</Top>
                 <Translated>True</Translated>
@@ -2723,7 +2723,7 @@
                 <Locked>False</Locked>
                 <MaxValue>10</MaxValue>
                 <MinValue>0</MinValue>
-                <Name>sldPlayerATB</Name>
+                <Name>sldCombatPlayerATB</Name>
                 <OnChange />
                 <Top>22</Top>
                 <Translated>True</Translated>
@@ -2744,7 +2744,7 @@
                 <Locked>False</Locked>
                 <MaxValue>10</MaxValue>
                 <MinValue>0</MinValue>
-                <Name>sldPlayerHP</Name>
+                <Name>sldCombatPlayerHP</Name>
                 <OnChange />
                 <Top>12</Top>
                 <Translated>True</Translated>
@@ -2761,7 +2761,7 @@
                 <ID>3</ID>
                 <Left>4</Left>
                 <Locked>False</Locked>
-                <Name>lblPlayerName</Name>
+                <Name>lblCombatPlayerName</Name>
                 <Text xml:space="preserve">Player Name</Text>
                 <TextAlignment>TopLeft</TextAlignment>
                 <TextColor>0</TextColor>
@@ -2771,6 +2771,110 @@
                 <Width>83</Width>
                 <ZOrder>3</ZOrder>
               </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>144</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>31</Height>
+              <ID>15</ID>
+              <Left>215</Left>
+              <Name>guiCombatEnemyStatus</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Top>30</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>92</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>9</Height>
+                <ID>0</ID>
+                <Left>4</Left>
+                <Locked>False</Locked>
+                <Name>lblCombatEnemyName</Name>
+                <Text>EnemyName</Text>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>2</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>85</Width>
+                <ZOrder>0</ZOrder>
+              </GUILabel>
+              <GUISlider>
+                <BackgroundImage>0</BackgroundImage>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <Height>5</Height>
+                <ID>1</ID>
+                <Left>23</Left>
+                <Locked>False</Locked>
+                <MaxValue>10</MaxValue>
+                <MinValue>0</MinValue>
+                <Name>sldCombatEnemyHP</Name>
+                <OnChange />
+                <Top>11</Top>
+                <Translated>True</Translated>
+                <Value>0</Value>
+                <Visible>True</Visible>
+                <Width>64</Width>
+                <ZOrder>1</ZOrder>
+              </GUISlider>
+              <GUISlider>
+                <BackgroundImage>0</BackgroundImage>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <Height>5</Height>
+                <ID>2</ID>
+                <Left>23</Left>
+                <Locked>False</Locked>
+                <MaxValue>10</MaxValue>
+                <MinValue>0</MinValue>
+                <Name>sldCombatEnemyMP</Name>
+                <OnChange />
+                <Top>16</Top>
+                <Translated>True</Translated>
+                <Value>0</Value>
+                <Visible>True</Visible>
+                <Width>64</Width>
+                <ZOrder>2</ZOrder>
+              </GUISlider>
+              <GUISlider>
+                <BackgroundImage>0</BackgroundImage>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <Height>5</Height>
+                <ID>3</ID>
+                <Left>23</Left>
+                <Locked>False</Locked>
+                <MaxValue>10</MaxValue>
+                <MinValue>0</MinValue>
+                <Name>sldCombatEnemyATB</Name>
+                <OnChange />
+                <Top>21</Top>
+                <Translated>True</Translated>
+                <Value>0</Value>
+                <Visible>True</Visible>
+                <Width>64</Width>
+                <ZOrder>3</ZOrder>
+              </GUISlider>
             </Controls>
           </GUIMain>
           <GUIMain>
