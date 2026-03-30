@@ -8,3 +8,5 @@ import void CursorEnableMouseModes();
 import void CursorForcePointerMode();
 import void CursorReturnPrevious();
 import void IconBarGUI_Enable(bool enable);
+
+import void UpdateBar(Button* _btn_id, int _value, int _value_max, int _bar_width);

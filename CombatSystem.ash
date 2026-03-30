@@ -51,6 +51,7 @@ struct MonsterTemplate {
   int move_power[5];
   int move_mp_cost[5];
   int move_count;
+
   EnemyMoveCategory move_category[5];
   int move_status[5];
   int move_status_chance[5];
@@ -84,6 +85,7 @@ struct CombatRuntime {
   int melee_power[5];
 
   String spell_names[5];
+  int spell_id[5];
   int spell_power[5];
   int spell_mp_cost[5];
   bool enemy_persistent;
@@ -112,5 +114,4 @@ import void Combat_PlayerPotion();
 import void Combat_PlayerRun();
 
 // setup helpers
-import void Combat_RegisterStarterMoves();
 // using project inventory script: iHealingPotion_Drink()

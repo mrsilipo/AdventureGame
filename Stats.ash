@@ -1,6 +1,6 @@
 // ==========================================
 // Stats.ash (HEADER)
-// Version 1.000
+// Version 1.001
 // ==========================================
 //
 // Notes:
@@ -71,6 +71,10 @@ managed struct CharSheet{
   int status_duration[CHAR_STATUS_COUNT];
   int status_power[CHAR_STATUS_COUNT];
 
+  int known_spells[SPELLBOOK_CAPACITY];
+  int known_spell_count;
+  int spell_skill[SPELL_COUNT];
+
   int gold;
 };
 
@@ -81,6 +85,11 @@ managed struct CharSheet{
 // - Add gold to gHeroStats
 // - Display's current gold stock
 import void AddGold(int _amount);
+
+// ==========================================
+// Spell Skill Updates
+// ==========================================
+import bool StatDB_GrantSkillXP(SpellId spell_id, int amount, CharSheet* sheet);
 
 // ==========================================
 // Game Lifecycle
@@ -103,6 +112,7 @@ import String Stat_GetWord(Stats _stat);
 // Notes:
 // - Base = permanent value
 // - Effective = base - temp
+import String GetStatusName(int status);
 import int Stat_GetBase(Stats _stat, CharSheet* _sheet);
 import int Stat_GetEffective(Stats _stat, CharSheet* _sheet);
 import void Stat_ModBase(Stats _stat, int _delta, CharSheet* _sheet);
@@ -112,11 +122,11 @@ import void Stat_ModBase(Stats _stat, int _delta, CharSheet* _sheet);
 // ==========================================
 // Notes:
 // - Must be called after any base stat change
-import void   Stat_RecalcDerived(CharSheet* _sheet);
-import void   Stat_ClampVitals(CharSheet* _sheet);
+import void Stat_RecalcDerived(CharSheet* _sheet);
+import void Stat_ClampVitals(CharSheet* _sheet);
 
 // ==========================================
-// HP / MP Management
+// HP / MP / Status / Spell Management
 // ==========================================
 // Notes:
 // - All HP/MP changes must go through these functions
@@ -126,6 +136,10 @@ import void Stat_ModMP(int _delta, CharSheet* _sheet);
 import void Stat_SetHP(int _value, CharSheet* _sheet);
 import void Stat_SetMP(int _value, CharSheet* _sheet);
 import void Stat_ClearStatuses(CharSheet* _sheet);
+import void Stat_ClearSpells(CharSheet* _sheet);
+import bool Stat_HasSpell(SpellId spell_id, CharSheet* _sheet);
+import bool Stat_LearnSpell(SpellId spell_id, CharSheet* _sheet);
+import bool SpellDB_GrantSkillXP(SpellId spell_id, int amount, CharSheet* sheet);
 
 // ==========================================
 // Debug / UI
@@ -149,7 +163,7 @@ import void Stat_ApplyBaseClass(StatClass _class, CharSheet* _sheet);
 // ==========================================
 // Notes:
 // - Initializes monster stats by kind / template
-import void   Stat_InitBaseMonsterStats(CharSheet* _sheet, int _kind);
+import void Stat_InitBaseMonsterStats(CharSheet* _sheet, int _kind);
 
 // ==========================================
 // Globals

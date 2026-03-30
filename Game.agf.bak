@@ -2501,7 +2501,7 @@
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <ScriptModule>GUI_PlayerCombat.asc</ScriptModule>
+              <ScriptModule>CombatSystem.asc</ScriptModule>
               <Top>166</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
@@ -2519,7 +2519,7 @@
                 <ID>0</ID>
                 <Image>148</Image>
                 <Left>96</Left>
-                <Locked>False</Locked>
+                <Locked>True</Locked>
                 <MouseoverImage>149</MouseoverImage>
                 <Name>btnAttack</Name>
                 <NewModeNumber>0</NewModeNumber>
@@ -2547,7 +2547,7 @@
                 <ID>1</ID>
                 <Image>151</Image>
                 <Left>122</Left>
-                <Locked>False</Locked>
+                <Locked>True</Locked>
                 <MouseoverImage>152</MouseoverImage>
                 <Name>btnDefend</Name>
                 <NewModeNumber>0</NewModeNumber>
@@ -2575,7 +2575,7 @@
                 <ID>2</ID>
                 <Image>157</Image>
                 <Left>175</Left>
-                <Locked>False</Locked>
+                <Locked>True</Locked>
                 <MouseoverImage>158</MouseoverImage>
                 <Name>btnPotion</Name>
                 <NewModeNumber>0</NewModeNumber>
@@ -2602,8 +2602,8 @@
                 <Height>25</Height>
                 <ID>3</ID>
                 <Image>154</Image>
-                <Left>148</Left>
-                <Locked>False</Locked>
+                <Left>149</Left>
+                <Locked>True</Locked>
                 <MouseoverImage>155</MouseoverImage>
                 <Name>btnSpell</Name>
                 <NewModeNumber>0</NewModeNumber>
@@ -2631,7 +2631,7 @@
                 <ID>4</ID>
                 <Image>160</Image>
                 <Left>201</Left>
-                <Locked>False</Locked>
+                <Locked>True</Locked>
                 <MouseoverImage>161</MouseoverImage>
                 <Name>btnRun</Name>
                 <NewModeNumber>0</NewModeNumber>
@@ -7006,6 +7006,22 @@
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
+                      <Sprite Slot="167" Width="35" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\Sprites\Hero\Export\Idle\spr_Idle.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>60</ImportHeight>
+                          <ImportWidth>35</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
                     </Sprites>
                   </SpriteFolder>
                   <SpriteFolder Name="Walk">
@@ -7699,6 +7715,27 @@
                           <OffsetY>0</OffsetY>
                           <ImportHeight>60</ImportHeight>
                           <ImportWidth>49</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Battle">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="168" Width="70" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\Sprites\Hero\Export\Battle\spr_BattleIdle.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>60</ImportHeight>
+                          <ImportWidth>70</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>True</RemapToGamePalette>
@@ -8678,7 +8715,7 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>145</Image>
+                        <Image>167</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -8691,7 +8728,7 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>145</Image>
+                        <Image>167</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -8704,7 +8741,7 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>145</Image>
+                        <Image>167</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -8717,7 +8754,7 @@
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>145</Image>
+                        <Image>167</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -8885,6 +8922,25 @@
                         <Flipped>False</Flipped>
                         <ID>0</ID>
                         <Image>100</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>7</ID>
+                <Name>HERO_BATTLE</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>168</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -9135,6 +9191,30 @@ See KeyboardMovement.txt for details.
                 <Author />
                 <Version />
                 <Key>225317858</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>SpellDataBase.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>308486380</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>SpellDataBase.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>308486380</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>
