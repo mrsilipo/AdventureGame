@@ -29,7 +29,6 @@ enum SpellId {
 struct SpellTemplate {
   String name;
   bool usable_in_battle;
-  bool usable_in_adventure;
 
   int battle_mp_cost[SPELL_SKILL_LEVEL_COUNT];
   int battle_power[SPELL_SKILL_LEVEL_COUNT];

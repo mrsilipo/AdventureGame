@@ -16,7 +16,7 @@
 enum StatClass{
   eClassFighter = 0,
   eClassMage    = 1,
-  eClassTheif   = 2,
+  eClassThief   = 2,
 
   eClassCount   = 3
 };
@@ -87,11 +87,6 @@ managed struct CharSheet{
 import void AddGold(int _amount);
 
 // ==========================================
-// Spell Skill Updates
-// ==========================================
-import bool StatDB_GrantSkillXP(SpellId spell_id, int amount, CharSheet* sheet);
-
-// ==========================================
 // Game Lifecycle
 // ==========================================
 // Notes:
@@ -139,7 +134,7 @@ import void Stat_ClearStatuses(CharSheet* _sheet);
 import void Stat_ClearSpells(CharSheet* _sheet);
 import bool Stat_HasSpell(SpellId spell_id, CharSheet* _sheet);
 import bool Stat_LearnSpell(SpellId spell_id, CharSheet* _sheet);
-import bool SpellDB_GrantSkillXP(SpellId spell_id, int amount, CharSheet* sheet);
+import bool Stat_GrantSpellSkillXP(SpellId spell_id, int amount, CharSheet* sheet);
 
 // ==========================================
 // Debug / UI
