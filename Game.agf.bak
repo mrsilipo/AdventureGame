@@ -9342,30 +9342,6 @@ See KeyboardMovement.txt for details.
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
-                <FileName>GUI_PlayerCombat.ash</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>1149881990</Key>
-                <IsHeader>True</IsHeader>
-              </Script>
-            </ScriptAndHeader_Header>
-            <ScriptAndHeader_Script>
-              <Script>
-                <FileName>GUI_PlayerCombat.asc</FileName>
-                <Name />
-                <Description />
-                <Author />
-                <Version />
-                <Key>1149881990</Key>
-                <IsHeader>False</IsHeader>
-              </Script>
-            </ScriptAndHeader_Script>
-          </ScriptAndHeader>
-          <ScriptAndHeader>
-            <ScriptAndHeader_Header>
-              <Script>
                 <FileName>GlobalScript.ash</FileName>
                 <Name />
                 <Description />
