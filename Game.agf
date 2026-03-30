@@ -2490,22 +2490,22 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
-              <BorderColor>2</BorderColor>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>147</BackgroundImage>
+              <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
-              <Height>40</Height>
+              <Height>34</Height>
               <ID>12</ID>
-              <Left>60</Left>
+              <Left>0</Left>
               <Name>guiCombat</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <ScriptModule>GUI_PlayerCombat.asc</ScriptModule>
-              <Top>160</Top>
+              <Top>166</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
-              <Width>200</Width>
+              <Width>320</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -2515,25 +2515,25 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>12</Height>
+                <Height>25</Height>
                 <ID>0</ID>
-                <Image>0</Image>
-                <Left>3</Left>
+                <Image>148</Image>
+                <Left>96</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
+                <MouseoverImage>149</MouseoverImage>
                 <Name>btnAttack</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnAttack_OnClick</OnClick>
-                <PushedImage>0</PushedImage>
-                <Text>Attack</Text>
+                <PushedImage>150</PushedImage>
+                <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>13</Top>
+                <Top>7</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>34</Width>
+                <Width>24</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>0</ZOrder>
               </GUIButton>
@@ -2543,25 +2543,25 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>12</Height>
+                <Height>25</Height>
                 <ID>1</ID>
-                <Image>0</Image>
-                <Left>40</Left>
+                <Image>151</Image>
+                <Left>122</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
+                <MouseoverImage>152</MouseoverImage>
                 <Name>btnDefend</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnDefend_OnClick</OnClick>
-                <PushedImage>0</PushedImage>
-                <Text>Defend</Text>
+                <PushedImage>153</PushedImage>
+                <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>13</Top>
+                <Top>7</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>43</Width>
+                <Width>24</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>1</ZOrder>
               </GUIButton>
@@ -2571,25 +2571,25 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>12</Height>
+                <Height>25</Height>
                 <ID>2</ID>
-                <Image>0</Image>
-                <Left>153</Left>
+                <Image>157</Image>
+                <Left>175</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
+                <MouseoverImage>158</MouseoverImage>
                 <Name>btnPotion</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnPotion_OnClick</OnClick>
-                <PushedImage>0</PushedImage>
-                <Text>Potion</Text>
+                <PushedImage>159</PushedImage>
+                <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>13</Top>
+                <Top>7</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>38</Width>
+                <Width>24</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>2</ZOrder>
               </GUIButton>
@@ -2599,25 +2599,25 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>13</Height>
+                <Height>25</Height>
                 <ID>3</ID>
-                <Image>0</Image>
-                <Left>119</Left>
+                <Image>154</Image>
+                <Left>148</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
+                <MouseoverImage>155</MouseoverImage>
                 <Name>btnSpell</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnSpell_OnClick</OnClick>
-                <PushedImage>0</PushedImage>
-                <Text>Spell</Text>
+                <PushedImage>156</PushedImage>
+                <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>13</Top>
+                <Top>7</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>27</Width>
+                <Width>24</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>3</ZOrder>
               </GUIButton>
@@ -2627,45 +2627,242 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>11</Height>
+                <Height>25</Height>
                 <ID>4</ID>
-                <Image>0</Image>
-                <Left>40</Left>
+                <Image>160</Image>
+                <Left>201</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
+                <MouseoverImage>161</MouseoverImage>
                 <Name>btnRun</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnRun_OnClick</OnClick>
-                <PushedImage>0</PushedImage>
-                <Text>Run</Text>
+                <PushedImage>162</PushedImage>
+                <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>26</Top>
+                <Top>7</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>42</Width>
+                <Width>24</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>4</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>False</Clickable>
+                <ClipImage>True</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>3</Height>
+                <ID>5</ID>
+                <Image>164</Image>
+                <Left>8</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>166</MouseoverImage>
+                <Name>btnCombatPlayerHPBar</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopRight</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>0</TextPaddingHorizontal>
+                <TextPaddingVertical>0</TextPaddingVertical>
+                <Top>21</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>58</Width>
+                <WrapText>True</WrapText>
+                <ZOrder>5</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>False</Clickable>
+                <ClipImage>True</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>3</Height>
+                <ID>6</ID>
+                <Image>165</Image>
+                <Left>8</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>btnCombatPlayerMPBar</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopRight</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>0</TextPaddingHorizontal>
+                <TextPaddingVertical>0</TextPaddingVertical>
+                <Top>28</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>58</Width>
+                <WrapText>True</WrapText>
+                <ZOrder>6</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>False</Clickable>
+                <ClipImage>True</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>3</Height>
+                <ID>7</ID>
+                <Image>164</Image>
+                <Left>236</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>166</MouseoverImage>
+                <Name>btnCombatEnemyHPBar</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopRight</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>0</TextPaddingHorizontal>
+                <TextPaddingVertical>0</TextPaddingVertical>
+                <Top>21</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>58</Width>
+                <WrapText>True</WrapText>
+                <ZOrder>7</ZOrder>
               </GUIButton>
               <GUILabel>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>11</Height>
-                <ID>5</ID>
-                <Left>3</Left>
-                <Locked>False</Locked>
-                <Name>lblBattleLog</Name>
-                <Text>BattleLog</Text>
+                <Font>4</Font>
+                <Height>6</Height>
+                <ID>8</ID>
+                <Left>71</Left>
+                <Locked>True</Locked>
+                <Name>lblCombatPlayerHP</Name>
+                <Text>999</Text>
                 <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
-                <Top>2</Top>
+                <TextColor>65535</TextColor>
+                <Top>20</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>197</Width>
-                <ZOrder>5</ZOrder>
+                <Width>16</Width>
+                <ZOrder>8</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>6</Height>
+                <ID>9</ID>
+                <Left>71</Left>
+                <Locked>True</Locked>
+                <Name>lblCombatPlayerMP</Name>
+                <Text>999</Text>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Top>27</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>16</Width>
+                <ZOrder>9</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>6</Height>
+                <ID>10</ID>
+                <Left>6</Left>
+                <Locked>True</Locked>
+                <Name>lblCombatPlayerName</Name>
+                <Text xml:space="preserve">Player Name</Text>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Top>11</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>80</Width>
+                <ZOrder>10</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>6</Height>
+                <ID>11</ID>
+                <Left>234</Left>
+                <Locked>True</Locked>
+                <Name>lblCombatEnemyName</Name>
+                <Text xml:space="preserve">Enemy Name</Text>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Top>11</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>80</Width>
+                <ZOrder>11</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>6</Height>
+                <ID>12</ID>
+                <Left>299</Left>
+                <Locked>True</Locked>
+                <Name>lblCombatEnemyHP</Name>
+                <Text>999</Text>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Top>20</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>16</Width>
+                <ZOrder>12</ZOrder>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>163</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>31</Height>
+              <ID>16</ID>
+              <Left>0</Left>
+              <Name>guiCombatLog</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>320</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>0</ID>
+                <Left>5</Left>
+                <Locked>False</Locked>
+                <Name>lblCombatLog</Name>
+                <Text>lblCombatLog</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Top>4</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>310</Width>
+                <ZOrder>0</ZOrder>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -2753,24 +2950,6 @@
                 <Width>64</Width>
                 <ZOrder>2</ZOrder>
               </GUISlider>
-              <GUILabel>
-                <Clickable>False</Clickable>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>9</Height>
-                <ID>3</ID>
-                <Left>4</Left>
-                <Locked>False</Locked>
-                <Name>lblCombatPlayerName</Name>
-                <Text xml:space="preserve">Player Name</Text>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
-                <Top>2</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>83</Width>
-                <ZOrder>3</ZOrder>
-              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -2794,24 +2973,27 @@
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
-              <GUILabel>
-                <Clickable>True</Clickable>
+              <GUISlider>
+                <BackgroundImage>0</BackgroundImage>
+                <Clickable>False</Clickable>
                 <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>9</Height>
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <Height>5</Height>
                 <ID>0</ID>
-                <Left>4</Left>
+                <Left>23</Left>
                 <Locked>False</Locked>
-                <Name>lblCombatEnemyName</Name>
-                <Text>EnemyName</Text>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
-                <Top>2</Top>
+                <MaxValue>10</MaxValue>
+                <MinValue>0</MinValue>
+                <Name>sldCombatEnemyHP</Name>
+                <OnChange />
+                <Top>11</Top>
                 <Translated>True</Translated>
+                <Value>0</Value>
                 <Visible>True</Visible>
-                <Width>85</Width>
+                <Width>64</Width>
                 <ZOrder>0</ZOrder>
-              </GUILabel>
+              </GUISlider>
               <GUISlider>
                 <BackgroundImage>0</BackgroundImage>
                 <Clickable>False</Clickable>
@@ -2824,9 +3006,9 @@
                 <Locked>False</Locked>
                 <MaxValue>10</MaxValue>
                 <MinValue>0</MinValue>
-                <Name>sldCombatEnemyHP</Name>
+                <Name>sldCombatEnemyMP</Name>
                 <OnChange />
-                <Top>11</Top>
+                <Top>16</Top>
                 <Translated>True</Translated>
                 <Value>0</Value>
                 <Visible>True</Visible>
@@ -2845,27 +3027,6 @@
                 <Locked>False</Locked>
                 <MaxValue>10</MaxValue>
                 <MinValue>0</MinValue>
-                <Name>sldCombatEnemyMP</Name>
-                <OnChange />
-                <Top>16</Top>
-                <Translated>True</Translated>
-                <Value>0</Value>
-                <Visible>True</Visible>
-                <Width>64</Width>
-                <ZOrder>2</ZOrder>
-              </GUISlider>
-              <GUISlider>
-                <BackgroundImage>0</BackgroundImage>
-                <Clickable>False</Clickable>
-                <Enabled>True</Enabled>
-                <HandleImage>0</HandleImage>
-                <HandleOffset>0</HandleOffset>
-                <Height>5</Height>
-                <ID>3</ID>
-                <Left>23</Left>
-                <Locked>False</Locked>
-                <MaxValue>10</MaxValue>
-                <MinValue>0</MinValue>
                 <Name>sldCombatEnemyATB</Name>
                 <OnChange />
                 <Top>21</Top>
@@ -2873,7 +3034,7 @@
                 <Value>0</Value>
                 <Visible>True</Visible>
                 <Width>64</Width>
-                <ZOrder>3</ZOrder>
+                <ZOrder>2</ZOrder>
               </GUISlider>
             </Controls>
           </GUIMain>
@@ -3652,6 +3813,34 @@
         <PointSize>0</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
         <SourceFilename />
+        <TTFMetricsFixup>None</TTFMetricsFixup>
+        <VerticalOffset>0</VerticalOffset>
+      </Font>
+      <Font>
+        <AutoOutlineStyle>Squared</AutoOutlineStyle>
+        <AutoOutlineThickness>1</AutoOutlineThickness>
+        <ID>3</ID>
+        <LineSpacing>0</LineSpacing>
+        <Name>Caps</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <PointSize>0</PointSize>
+        <SizeMultiplier>1</SizeMultiplier>
+        <SourceFilename xml:space="preserve">D:\PIXEL ART\PersonalProjects\Advanya\Font\SCI Fonts\FONT.008</SourceFilename>
+        <TTFMetricsFixup>None</TTFMetricsFixup>
+        <VerticalOffset>0</VerticalOffset>
+      </Font>
+      <Font>
+        <AutoOutlineStyle>Squared</AutoOutlineStyle>
+        <AutoOutlineThickness>1</AutoOutlineThickness>
+        <ID>4</ID>
+        <LineSpacing>0</LineSpacing>
+        <Name>Numeric</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <PointSize>0</PointSize>
+        <SizeMultiplier>1</SizeMultiplier>
+        <SourceFilename xml:space="preserve">D:\PIXEL ART\PersonalProjects\Advanya\Font\SCI Fonts\FONT.600</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
       </Font>
@@ -8044,7 +8233,269 @@
           <SpriteFolder Name="UI">
             <SubFolders>
               <SpriteFolder Name="Battle">
-                <SubFolders />
+                <SubFolders>
+                  <SpriteFolder Name="ActionBar">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="147" Width="320" Height="34" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\UI_Battle_ActionPanel.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>34</ImportHeight>
+                          <ImportWidth>320</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="148" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Attack1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="149" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Attack2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="150" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Attack3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="151" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Defend1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="152" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Defend2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="153" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Defend3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="154" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Magic1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="155" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Magic2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="156" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Magic3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="157" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Potion1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="158" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Potion2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="159" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Potion3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="160" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Run1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="161" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Run2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="162" Width="24" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\ActionButtons\export\spr_Run3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>25</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
                 <Sprites>
                   <Sprite Slot="144" Width="92" Height="31" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
@@ -8053,6 +8504,70 @@
                       <OffsetY>0</OffsetY>
                       <ImportHeight>31</ImportHeight>
                       <ImportWidth>92</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <TransparentColorIndex>0</TransparentColorIndex>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="163" Width="320" Height="31" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\UI_Battle_TextPanel.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>31</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <TransparentColorIndex>0</TransparentColorIndex>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="164" Width="58" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\HP.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>3</ImportHeight>
+                      <ImportWidth>58</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <TransparentColorIndex>0</TransparentColorIndex>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="165" Width="58" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\MP.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>3</ImportHeight>
+                      <ImportWidth>58</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>True</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <TransparentColorIndex>0</TransparentColorIndex>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="166" Width="58" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>D:\PIXEL ART\PersonalProjects\Advanya\UI\Battle\HP_poison.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>3</ImportHeight>
+                      <ImportWidth>58</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>True</RemapToGamePalette>

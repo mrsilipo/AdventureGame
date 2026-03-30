@@ -29,6 +29,8 @@ enum EnemyMoveCategory {
   eMoveHealingMagic = 3
 };
 
+#define COMBAT_STATUS_NONE -1
+
 struct MonsterTemplate {
   String name;
   String death;
@@ -50,6 +52,10 @@ struct MonsterTemplate {
   int move_mp_cost[5];
   int move_count;
   EnemyMoveCategory move_category[5];
+  int move_status[5];
+  int move_status_chance[5];
+  int move_status_duration[5];
+  int move_status_power[5];
 };
 
 struct CombatRuntime {
@@ -80,6 +86,7 @@ struct CombatRuntime {
   String spell_names[5];
   int spell_power[5];
   int spell_mp_cost[5];
+  bool enemy_persistent;
 
   CombatState state;
 };

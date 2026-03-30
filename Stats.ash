@@ -1,5 +1,6 @@
 // ==========================================
 // Stats.ash (HEADER)
+// Version 1.000
 // ==========================================
 //
 // Notes:
@@ -29,12 +30,24 @@ enum Stats{
   eStatVitality      = 1,
   eStatIntelligence  = 2,
   eStatAgility       = 3,
-  eStatKinesthesia   = 4,
+  eStatDexterity     = 4,
   eStatCommunication = 5,
 
   eStatCount         = 6
 };
 #define STAT_COUNT eStatCount
+
+// ==========================================
+// Status Effects
+// ==========================================
+enum CharacterStatus {
+  eCharStatusPoison = 0,
+  eCharStatusBurn = 1,
+  eCharStatusRegen = 2,
+
+  eCharStatusCount = 3
+};
+#define CHAR_STATUS_COUNT eCharStatusCount
 
 // ==========================================
 // CharSheet
@@ -53,6 +66,10 @@ managed struct CharSheet{
   int hp_max;
   int mp;
   int mp_max;
+
+  bool status_active[CHAR_STATUS_COUNT];
+  int status_duration[CHAR_STATUS_COUNT];
+  int status_power[CHAR_STATUS_COUNT];
 
   int gold;
 };
@@ -108,6 +125,7 @@ import void Stat_ModHP(int _delta, CharSheet* _sheet);
 import void Stat_ModMP(int _delta, CharSheet* _sheet);
 import void Stat_SetHP(int _value, CharSheet* _sheet);
 import void Stat_SetMP(int _value, CharSheet* _sheet);
+import void Stat_ClearStatuses(CharSheet* _sheet);
 
 // ==========================================
 // Debug / UI
