@@ -8,34 +8,35 @@
 
 // Add spell id's here:
 enum SpellId {
-  eSpellSpark = 0,
-  eSpellFlame = 1,
-  eSpellOpen = 2,
+  eSpellVindor = 0,
+  eSpellPloom = 1,
+  eSpellRah = 2,
+  eSpellHum = 3,
 
-  eSpellCount = 3
+  eSpellCount = 4
 };
 
 // ==========================================
 
 #define SPELL_COUNT eSpellCount
-#define SPELLBOOK_CAPACITY 16
+#define SPELLBOOK_CAPACITY 6
 
 #define SPELL_SKILL_LEVEL_COUNT 3
-#define SPELL_SKILL_THRESHOLD_1 10
-#define SPELL_SKILL_THRESHOLD_2 25
-#define SPELL_SKILL_THRESHOLD_3 50
-#define SPELL_SKILL_MAX_CAP 50
+#define SPELL_SKILL_THRESHOLD_1 25
+#define SPELL_SKILL_THRESHOLD_2 50
+#define SPELL_SKILL_THRESHOLD_3 75
+#define SPELL_SKILL_MAX_CAP 100
 
 struct SpellTemplate {
   String name;
+  String desc;
+
   bool usable_in_battle;
 
-  int battle_mp_cost[SPELL_SKILL_LEVEL_COUNT];
-  int battle_power[SPELL_SKILL_LEVEL_COUNT];
+  int mp_cost[SPELL_SKILL_LEVEL_COUNT];
+  int power[SPELL_SKILL_LEVEL_COUNT];
+  
   int battle_fx[SPELL_SKILL_LEVEL_COUNT];
-
-  int adventure_mp_cost[SPELL_SKILL_LEVEL_COUNT];
-  int adventure_power[SPELL_SKILL_LEVEL_COUNT];
   int adventure_fx;
 };
 

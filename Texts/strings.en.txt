@@ -55,6 +55,26 @@ DEATH.TOAD.TITLE = Death By Toad
 DEATH.TOAD.TEXT = You got toaddily done by the massive toad!
 
 # - - - - - - - - - - - - - - - - - - - - - - - - -
+# VITALS  - - - - - - - - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - -
+VITAL.HP = HP
+VITAL.MP = MP
+
+# - - - - - - - - - - - - - - - - - - - - - - - - -
+# SPELLS - - - - - - - - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - -
+SPELL.SKILL = Skill
+SPELL.VINDOR.NAME = Vindor
+SPELL.VINDOR.DESC = Conjure wind.
+SPELL.PLOOM.NAME = Ploom
+SPELL.PLOOM.DESC = Conjure flame.
+SPELL.RAH.NAME = Rah
+SPELL.RAH.DESC = Conjure a golden flesh-healing light.
+SPELL.HUM.NAME = Hum
+SPELL.HUM.DESC = Sacrifice health to restore magic.
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - -
 # INVENTORY - - - - - - - - - - - - - - - - - - - -
 # - - - - - - - - - - - - - - - - - - - - - - - - -
 # MONEY POUCH
