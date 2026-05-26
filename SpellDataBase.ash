@@ -1,5 +1,6 @@
 // ==========================================
 // SpellDataBase.ash (HEADER)
+// Version 1.004
 // ==========================================
 
 // ==========================================
@@ -30,6 +31,10 @@ enum SpellId {
 struct SpellTemplate {
   String name;
   String desc;
+  int icon_sprite_normal;
+  int icon_sprite_mouseover;
+  int icon_sprite_pressed;
+  int cursor_sprite;
 
   bool usable_in_battle;
 
@@ -45,7 +50,12 @@ import int SpellDB_GetMaxSkillCap();
 import int SpellDB_GetSkillLevelFromSkillValue(int skill_value);
 
 import String SpellDB_GetName(SpellId spell_id);
+import String SpellDB_GetDescription(SpellId spell_id);
 import bool SpellDB_IsUsable(SpellId spell_id, bool is_battle_context);
+import int SpellDB_GetIconSpriteNormal(SpellId spell_id);
+import int SpellDB_GetIconSpriteMouseover(SpellId spell_id);
+import int SpellDB_GetIconSpritePressed(SpellId spell_id);
+import int SpellDB_GetCursorSprite(SpellId spell_id);
 
 import int SpellDB_GetMPCost(SpellId spell_id, bool is_battle_context, int skill_value);
 import int SpellDB_GetPower(SpellId spell_id, bool is_battle_context, int skill_value);
